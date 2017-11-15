@@ -17,7 +17,7 @@ end
 
 
 get '/favourites' do
-  @fav_links = ['google.com', 'reddit.com', 'youtube.com', 'facebook.com', 'netflix.com']
+  @fav_links = {'Google'=>'https://www.google.ca', 'Reddit'=>'https://www.reddit.com/', 'Youtube'=>'https://www.youtube.com/', 'Facebook'=>'https://www.facebook.com/', 'Netflix'=>'https://www.netflix.com'}
   erb :favourites
 end
 
